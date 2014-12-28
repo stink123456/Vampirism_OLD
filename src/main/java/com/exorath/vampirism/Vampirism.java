@@ -24,7 +24,7 @@ public class Vampirism extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        instance = this;
+        instance = null;
     }
 
     /**
